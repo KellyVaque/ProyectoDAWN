@@ -4,10 +4,8 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap" rel="stylesheet">
@@ -16,10 +14,8 @@
 
 
     <link rel="stylesheet" href="assets/css/style.css">
-
-
     <link rel="stylesheet" href="assets/css/responsive.css">
-    
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
 
 </head>
 
@@ -52,10 +48,8 @@
             <div class="single-about-txt">
                 <div class="header-text">
                     <h2>Hola <span>,</span> soy<br> Kelly <br> Vaque <span>.</span> </h2>
-                    <p>Desarrollador Web</p>
-                    <div class="single-contact-btn">
-                        <a class="contact-btn" href="#" role="button">Enviar</a>
-                    </div>
+                    <p>Desarrolladora Web</p>
+                
                 </div>
 
             </div>
@@ -71,24 +65,68 @@
 
     <section id="about" class="about">
         <div class="section-heading text-center">
-            <h2>Sobre mi</h2>
+            <h2>Acerca de mi</h2>
+            
         </div>
         <div class="about-content">
-            <div class="single-about-txt">
+            
+            <div class="about-txt">
                 <h3>Estudiante de Espol</h3>
-                    <p>
-                        Poseo conocimientos en desarrollo frontend, backend, principios de diseño mediante la metodología Scrum para el
-                        desarrollo de un código eficiente y organizado,
-                    </p>
-                    <h3>telefono</h3>
-                    <p>111</p>
-                    <h3>email</h3>
-                    <p>emaiiil</p>
+                <p>
+                    Poseo conocimientos en desarrollo frontend, backend, principios de diseño mediante la metodología Scrum para el
+                    desarrollo de un código eficiente y organizado.
+                </p>
+                <h3>Habilidades Blandas</h3>
+                <ul>
+                    <li>Perseverante</li>
+                    <li>Creativa</li>
+                    <li>Autodidacta</li>
+                    <li>Trabajo en equipo</li>
+                </ul>
+                <h3>Lenguajes</h3>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Basico</th>
+                                <th>Bueno</th>
+                                <th>Excelente</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Python</td>
+                                <td></td>
+                                <td></td>
+                                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td></td>
+                                <td></td>
+                                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                <td>PHP</td>
+                                <td></td>
+                                <td><i class="fa fa-check" aria-hidden="true"></td>
+                                <td></i></td>
+                            </tr>
+                            <tr>
+                                <td>Ruby</td>
+                                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <td></td>
+                                <td></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
                                 
-            <div class="single-about-img">
-                <img src="https://previews.123rf.com/images/mrswilkins/mrswilkins1705/mrswilkins170500004/80934391-ilustraci%C3%B3n-de-imagen-de-perfil-mujer-vector.jpg" alt="profile_image">
-                            
+            <div class="about-video">
+                <iframe width="480" height="270" src="https://www.powtoon.com/embed/d0wQPsMnsg4/" frameborder="0"
+                    allowfullscreen></iframe>
             </div>
 
         </div>
@@ -140,7 +178,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Nombre" name="name">
+                                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="name">
                                 </div>
                             </div>
                         </div>
@@ -156,7 +194,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Asunto" name="subject">
+                                    <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto">
                                 </div>
                             </div>         
                         </div>
@@ -164,7 +202,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="8" id="comment" placeholder="Mensaje"></textarea>
+                                    <textarea class="form-control" rows="8" id="mensaje" placeholder="Mensaje" name="mensaje"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -172,12 +210,18 @@
                         <div class="row">
                             <div class="col">
                                 <div class="single-contact-btn">
-                                    <a class="contact-btn" href="#" role="button">Enviar</a>
+                                    <a class="contact-btn" role="button">Enviar</a>
                                 </div>
                             </div>
                         </div>
                                          
                     </form>
+                </div>
+                <div class="redes">
+                    <a class="btn" href="https://github.com/KellyVaque"><i class="fa-brands fa-github"></i></a>
+                    <a class="btn" href="https://www.linkedin.com/in/kelly-vaque-a3a27010b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="btn" href="https://www.instagram.com/kelllzv/"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn" href="https://www.facebook.com/kellyvaque.1/"><i class="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
             
@@ -189,8 +233,8 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="single-contact-text">
-                    <p><i class="fa-light fa-envelope"></i> ksvaque@espol.edu.ec</p>
-                    <p><i class="fa-light fa-envelope"></i>+593 99 264 8549</p>
+                    <p><i class="fa-solid fa-envelope"></i>&nbsp; ksvaque@espol.edu.ec</p>
+                    <p><i class="fa-solid fa-mobile-screen"></i>&nbsp;+593 99 264 8549</p>
                 </div>
             
             </div>

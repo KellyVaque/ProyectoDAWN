@@ -1,7 +1,170 @@
 
 @media only screen and (max-width: 320px) {
-    /* Styles */
+  .inicio-content {
+    display: block;
+  }
+    
+  .single-about-txt {
+    width: 100%;
+    box-sizing: border-box;
+    }
+    
+  .single-about-img {
+    width: 100%;
+    box-sizing: border-box;
+    }
+    .single-about-img img {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .about-content {
+      display: block;
+    }
+  
+    .about-txt {
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .about-video {
+      width: 100%;
+      box-sizing: border-box;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+  .inicio-content{
+    display: block;    
+  }
+  .single-about-txt{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .single-about-img{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .single-about-img img {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .about-content{
+      display: block;
+  }
+  .about-txt{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .about-video{
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+  
+
+
+@media screen and(max-width:600px) {
+  table {
+    width: 100%;
   }
 
+  thead {
+    display: none;
+  }
 
-  
+  tr:nth-of-type(2n) {
+    background-color: inherit;
+  }
+
+  tr td:first-child {
+    background: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: block;
+    text-align: center;
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+
+  tbody td {
+    display: block;
+    text-align: center;
+  }
+
+  tbody td:before {
+    content: attr(data-th);
+    display: block;
+    text-align: center;
+  }
+}
+
+
+/* Responsive nav bar*/
+@media (max-width: 800px) {
+  .navlinks {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: #222831;
+    right: -100%;
+    transition: all 0.5s;
+  }
+
+  .navlinks li {
+    display: block;
+  }
+
+  .navlinks li a {
+    font-size: 20px;
+  }
+
+  .navlinks li a:hover {
+    border-bottom: none;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  #isChecked:checked~.navlinks {
+    right: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    margin-left: 15px;
+    font-size: 25px;
+  }
+
+  .menu-btn {
+    margin-right: 15px;
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+  }
+
+  .table-responsive>.table {
+    margin-bottom: 0;
+  }
+
+  .table-responsive>.table>thead>tr>th,
+  .table-responsive>.table>tbody>tr>th,
+  .table-responsive>.table>tfoot>tr>th,
+  .table-responsive>.table>thead>tr>td,
+  .table-responsive>.table>tbody>tr>td,
+  .table-responsive>.table>tfoot>tr>td {
+    white-space: nowrap;
+  }
+}

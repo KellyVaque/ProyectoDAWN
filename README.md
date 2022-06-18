@@ -10,3 +10,4 @@ Portfolio con datos personales y proyectos realizados
 - Realizado con HTML y CSS puro
 - Diseño responsivo 
 - One page layout
+- Uso de Fontawesome para un mejor diseño de iconos 

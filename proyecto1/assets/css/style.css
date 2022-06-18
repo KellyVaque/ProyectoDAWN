@@ -96,7 +96,9 @@ header {
     display: none;
 }
 
-
+#isChecked {
+    display: none;
+}
 
 .inicio{
     width: 100%;
@@ -115,7 +117,30 @@ header {
 
 }
 
+.habilidades-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10% 10% 10%;
+    align-items: center;
+    background-color: #f5f8fe;
+    width: 100%;
+    align-content: center;
 
+}
+
+.habilidad{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.habilidades-icon h3 {
+    font-size: 140px !important;
+}
 
 .header-text h2 {
     color: #4e5166;
@@ -397,6 +422,7 @@ header {
 .hm-footer-copyright p {
     color: #888ea5;
     text-transform: capitalize;
+    background-color: #f5f8fe;
 }
 
 .hm-footer-copyright p a {

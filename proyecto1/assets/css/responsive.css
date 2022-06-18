@@ -30,6 +30,31 @@
       width: 100%;
       box-sizing: border-box;
     }
+
+    .habilidades-content {
+      display: block;
+      }
+    
+    .habilidades-icon {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .habilidad {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .contact-content{
+      display: block;
+    }
+
+    .single-contact-box{
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .contact-details{
+      width: 100%;
+      box-sizing: border-box;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -59,6 +84,29 @@
     width: 100%;
     box-sizing: border-box;
   }
+     .habilidades-content {
+       display: block;
+     }
+  
+     .habilidades-icon {
+       width: 100%;
+       box-sizing: border-box;
+     }
+  
+     .habilidad {
+       width: 100%;
+       box-sizing: border-box;
+     }
+
+.single-contact-box {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-details {
+  width: 100%;
+  box-sizing: border-box;
+}
 }
   
 
